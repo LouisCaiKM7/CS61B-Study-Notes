@@ -84,8 +84,10 @@ public class JavaExercises {
             return 2;
         } else if (x<0 && y<0) {
             return 3;
-        }else{
+        }else if(x>0 && y<0){
             return 4;
+        }else{
+            return 0;
         }
     }
 
@@ -98,5 +100,6 @@ public class JavaExercises {
         System.out.println(quadrant(-3, -4));// Output: 3
         System.out.println(quadrant(3, -4)); // Output: 4
         System.out.println(quadrant(0, 5));  // Output: 0
+        System.out.println(quadrant(5, 0));  // Output: 0
     }
 }
