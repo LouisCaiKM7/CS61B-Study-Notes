@@ -29,6 +29,9 @@ public class IfElseMystery1 {
 
 /* Before running the code, type your answer below.
 
-TODO: Write output here
+13 21
+5 6
+6 5
+7 11
 
 Then, click the green play button to check your work. */
