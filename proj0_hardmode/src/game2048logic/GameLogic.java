@@ -31,4 +31,10 @@ public class GameLogic {
             return;
         }
     }
+    public static int[][] move(int[][] input){
+        for(int i = 0; i < 4; i++){
+
+        }
+        return null;
+    }
 }
