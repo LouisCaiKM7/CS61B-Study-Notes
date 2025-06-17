@@ -24,7 +24,7 @@ public class Model {
     /** Largest piece value. */
     public static final int MAX_PIECE = 2048;
 
-    /** A new 2048 game on a board of size SIZE with no pieces
+    /** A new 2048 game on a board of size "SIZE" with no pieces
      *  and score 0. */
     public Model(int size) {
         board = new Board(size);

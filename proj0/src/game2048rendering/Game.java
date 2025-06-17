@@ -114,7 +114,7 @@ class Game {
 
     /** Return a randomly positioned tile with either value of 2 with
      * probability _probOf2 or a value of 4 with probability 1 - _probOf2 in a
-     * board with size SIZE. */
+     * board with size "SIZE". */
     private Tile generateNewTile(int size) {
         int c = _random.nextInt(size), r = _random.nextInt(size);
         int v = _random.nextDouble() <= _probOf2 ? 2 : 4;

@@ -41,13 +41,13 @@ public enum Side {
     }
 
     /** Return the standard x-coordinate for square (x, y) on a board
-     *  of size SIZE oriented with this Side on top. */
+     *  of size "SIZE" oriented with this Side on top. */
     int x(int x, int y, int size) {
         return _col0 * (size - 1) + x * _drow + y * _dcol;
     }
 
     /** Return the standard y-coordinate for square (x, y) on a board
-     *  of size SIZE oriented with this Side on top. */
+     *  of size "SIZE" oriented with this Side on top. */
     int y(int x, int y, int size) {
         return _row0 * (size - 1) - x * _dcol + y * _drow;
     }
