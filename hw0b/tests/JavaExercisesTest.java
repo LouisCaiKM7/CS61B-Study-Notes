@@ -1,4 +1,7 @@
+package tests;
+
 import org.junit.jupiter.api.*;
+import src.JavaExercises;
 
 import java.util.List;
 

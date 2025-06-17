@@ -1,4 +1,4 @@
-package game2048rendering;
+package src.game2048rendering;
 
 /** Symbolic names for the four sides of a board.
  *  @author P. N. Hilfinger */

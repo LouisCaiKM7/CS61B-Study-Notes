@@ -1,11 +1,11 @@
-package game2048rendering;
+package src.game2048rendering;
 
-import game2048logic.Model;
+import src.game2048logic.Model;
 
 import java.awt.event.KeyEvent;
 import java.util.Random;
 
-import static game2048rendering.Side.*;
+import static src.game2048rendering.Side.*;
 
 /** The input/output and GUI controller for play of a game of 2048.
  *  @author P. N. Hilfinger. */
@@ -92,10 +92,10 @@ class Game {
      *  or "Right"). */
     private Side keyToSide(String key) {
         return switch (key) {
-            case KeyEvent.VK_UP + "", "\u2191" -> NORTH;
-            case KeyEvent.VK_DOWN + "", "\u2193" -> SOUTH;
-            case KeyEvent.VK_LEFT + "", "\u2190" -> WEST;
-            case KeyEvent.VK_RIGHT+ "", "\u2192" -> EAST;
+            case KeyEvent.VK_UP + "", "↑" -> NORTH;
+            case KeyEvent.VK_DOWN + "", "↓" -> SOUTH;
+            case KeyEvent.VK_LEFT + "", "←" -> WEST;
+            case KeyEvent.VK_RIGHT+ "", "→" -> EAST;
             default -> throw new IllegalArgumentException("unknown key designation");
         };
     }

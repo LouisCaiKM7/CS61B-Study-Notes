@@ -1,8 +1,8 @@
-package game2048logic;
+package src.game2048logic;
 
-import game2048rendering.Board;
-import game2048rendering.Side;
-import game2048rendering.Tile;
+import src.game2048rendering.Board;
+import src.game2048rendering.Side;
+import src.game2048rendering.Tile;
 
 import java.util.Formatter;
 

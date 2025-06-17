@@ -1,6 +1,6 @@
-package game2048rendering;
+package src.game2048rendering;
 
-import game2048logic.Model;
+import src.game2048logic.Model;
 
 /** The main class for the 2048 game.
  *  @author P. N. Hilfinger

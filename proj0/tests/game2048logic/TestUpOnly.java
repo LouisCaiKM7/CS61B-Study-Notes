@@ -1,5 +1,6 @@
-package game2048logic;
-import game2048rendering.Side;
+package tests.game2048logic;
+import src.game2048logic.Model;
+import src.game2048rendering.Side;
 import jh61b.grader.GradedTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -7,7 +8,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 
 import static com.google.common.truth.Truth.assertWithMessage;
-import static game2048logic.TestUtils.checkTilt;
+
+import static tests.game2048logic.TestUtils.checkTilt;
 
 /** Tests the tilt() method in the up (Side.NORTH) direction only.
  *

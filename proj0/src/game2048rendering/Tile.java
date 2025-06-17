@@ -1,4 +1,4 @@
-package game2048rendering;
+package src.game2048rendering;
 
 /** Represents the image of a numbered tile on a 2048 board.
  *  @author P. N. Hilfinger.

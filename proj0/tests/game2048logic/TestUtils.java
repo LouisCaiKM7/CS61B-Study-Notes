@@ -1,6 +1,7 @@
-package game2048logic;
+package tests.game2048logic;
 
-import game2048rendering.Side;
+import src.game2048rendering.Side;
+import src.game2048logic.Model;
 
 import static com.google.common.truth.Truth.assertWithMessage;
 

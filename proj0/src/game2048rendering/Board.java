@@ -1,4 +1,4 @@
-package game2048rendering;
+package src.game2048rendering;
 
 import java.util.Arrays;
 import java.util.Formatter;

@@ -1,5 +1,6 @@
-package game2048logic;
-import game2048rendering.Board;
+package tests.game2048logic;
+import src.game2048logic.Model;
+import src.game2048rendering.Board;
 import jh61b.grader.GradedTest;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
